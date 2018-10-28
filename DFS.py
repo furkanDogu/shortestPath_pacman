@@ -16,20 +16,20 @@ class DFS():
                 self.path.append([x, y])
                 return True
 
-            #sağ
+            
             dx = -1
             dy = 0
             if(self.check(x + dx, y + dy)):
                 self.path.append([x, y])
                 return True
-            #aşağı
+            
             dx = 0
             dy = -1
             if(self.check(x + dx, y + dy)):
                 self.path.append([x, y])
                 return True
 
-            #yukarı
+           
             dx = 0
             dy = 1
             if(self.check(x + dx, y + dy)):
